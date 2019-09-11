@@ -9,6 +9,15 @@ Live test auth details:
 
 ## Steps to reproduce
 
+```
+git clone https://github.com/jamesknelson/iphone-tabs-auth-bug.git
+cd iphone-tabs-auth-bug
+yarn install
+yarn start
+```
+
+Then:
+
 1. Copy your firebase settings into `config.ts`
 2. Ensure you already have a registered user available for that project
 3. Load [iphone-tabs-auth-bug.firebaseapp.com](http://iphone-tabs-auth-bug.firebaseapp.com) on mobile safari
